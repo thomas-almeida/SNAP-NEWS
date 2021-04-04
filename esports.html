@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/snap-logo.ico" type="image/x-icon">
+    <title>Snap news</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>SnapNews.</h1>
+    </div>
+
+    <nav class="navbar">
+        <a href="#" id="mobile-btn" onclick="menu()">Menu ></a>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membros.html">Membros</a></li>
+            <li><a href="campeonatos.html">Campeonatos</a></li>
+            <li><a href="esports.html">E-sports Universitarios</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <div class="show-section">
+        <div class="show-banner" id="esports">
+            <div class="show-banner-content">
+                <h1>As principais notícias do cenário de E-sports Universitarios todas em um único lugar!</h1>
+                <p>
+                    Acompanhe as principais notícias, resumos de partidas e muito mais no que diz respeito ao cenário
+                    crescente do campeonatos de jogos eletrônicos das universidades de SP e do Brasil, econtre a
+                    acompanhe as notícias da sua universidade nas principais ligas do cenário.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="vantagens-membros">
+        <div class="vatagens-area">
+
+            <div class="vantagem" id="news-esports">
+                <div>
+                    <p>05 de mar</p>
+                    <h2>CBEU confirma equipes para campeonato de Rocket League!</h2>
+                    <p>
+                        Neste dia 5 de março a página da <b>CBEU</b> confirmou que haverá o showdown de <b>Rocket
+                            League</b> com 6 equipes com <b>(MAUÁ / INTZ / UFF-UR / MINERVA / STORM /PUCC
+                            CARDINALS)</b>.
+                    </p>
+                  
+                </div>
+            </div>
+
+            <div class="vantagem" id="news-esports">
+                <div>
+                    <p>05 de mar</p>
+                    <h2>Grande Stream da Final da LUE acontece esta semana, veja as equipes!</h2>
+                    <p>
+                        Na finalíssima da Liga Universitaria de Esports, disputando a modalidade de <b>LOL</b> esta
+                        semana <b>FIRE - UFSCAR</b> e <b>DREG e-sports</b> se enfrantam para disputar a taça desse ano!
+                    </p>
+                 
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+</body>
+
+<script>
+    function menu() {
+
+        var x = document.getElementById("menu")
+
+        if (x.style.display == "inline-block") {
+            x.style.display = "none"
+        } else {
+            x.style.display = "inline-block"
+        }
+
+    }
+</script>
+
+</html>
