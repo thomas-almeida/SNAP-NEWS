@@ -9,14 +9,26 @@
     display: none;
 }
 
+#mobile-btn img{
+    width: 30px;
+}
+
 h2 {
     font-weight: 500;
 }
 
 .title {
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     font-size: 16pt;
+}
+
+.title h1{
+    font-weight: 600;
+}
+
+.title img{
+    width: 40px;
 }
 
 .navbar {
@@ -62,9 +74,9 @@ hr {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-image: url("../img/Fluxo.png");
+    background-image: url("../img/principal.png");
     background-position: center;
-    background-size: 100%;
+    background-size: auto;
     background-color: springgreen;
     color: white;
 }
@@ -139,7 +151,15 @@ hr {
     margin: 20px;
     padding: 0px;
     width: 500px;
-    height: 550px;
+    height:620px;
+}
+
+#subject{
+    padding-left: 0;
+}
+
+.news b{
+    font-weight: 800;
 }
 
 .news ul {
@@ -149,10 +169,12 @@ hr {
 .news li {
     display: inline-block;
     padding: 10px;
+    
+    padding-left: 0;
 }
 
 .news h2 {
-    padding: 10px;
+    padding: 15px;
 }
 
 .news p {
