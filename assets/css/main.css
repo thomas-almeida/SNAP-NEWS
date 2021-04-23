@@ -74,9 +74,9 @@ hr {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-image: url('../img/principal.png');
+    background-image: url('../img/warzone.png');
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-color: springgreen;
     color: white;
 }
